@@ -1,0 +1,5 @@
+H4_OTA_COLD_CACHE_PROBE_20260815_V1
+This is deliberately not an ESP32 application image.
+It exists only to determine whether the deployed H4 reaches the approved raw GitHub transport over Wi-Fi.
+The first byte is not the ESP image magic, so the updater must reject it before Update.begin or any flash write.
+Nonce: 20260815-1158-CEST-7f3d6c2a
