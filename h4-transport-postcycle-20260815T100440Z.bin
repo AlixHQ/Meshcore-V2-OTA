@@ -1,0 +1,4 @@
+H4 OTA TRANSPORT POST-RUNTIME-CYCLE PROBE
+This is a deliberately invalid, non-ESP32 application payload used only to determine whether the deployed H4 reaches the approved raw GitHub transport after a bounded Wi-Fi runtime cycle.
+The first byte is ASCII H, not ESP image magic 0xE9. The receiver must reject this payload before Update.begin or any flash write.
+Nonce: 20260815T100440Z
