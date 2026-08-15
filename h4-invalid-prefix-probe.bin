@@ -1,4 +1,0 @@
-H4 OTA TRANSPORT PROBE — deliberately not an ESP32 application image.
-This file exists only to prove that the deployed H4 can complete a bounded HTTPS GET from the approved raw GitHub transport.
-Its first byte is ASCII H, not ESP image magic 0xE9, so the reviewed receiver must reject it before Update.begin or any flash write.
-No credentials or device data are present.
